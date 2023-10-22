@@ -25,49 +25,49 @@
 Адрес, VARCHAR(150), NOT NULL  
 Идентификатор структурного подразделения, FOREIGN KEY, INT, NOT NULL  
 
-2) Таблица Структурные подразделения   
+#### 2) Таблица Структурные подразделения   
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 Наименование подразделения, VARCHAR(60), NOT NULL   
 
-3) Таблица Должности   
+#### 3) Таблица Должности   
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 Наименование, VARCHAR(60), NOT NULL  
 Оклад, DECIMAL(10,2), NOT NULL   
 
-4) Таблица Тип подразделения  
+#### 4) Таблица Тип подразделения  
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 Наименование varchar(50), not null  
 
-5) Таблица Область  
+#### 5) Таблица Область  
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 Наименование, VARCHAR(50), NOT NULL 
 
-6) Таблица Город  
+#### 6) Таблица Город  
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 Наименование, VARCHAR(50), NOT NULL  
 
-7) Таблица Адрес  
+#### 7) Таблица Адрес  
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 Наименование, VARCHAR(200), NOT NULL   
  
-8) Таблица  Адрес филиала  
+#### 8) Таблица  Адрес филиала  
 
 Идентификатор области, FOREIGN KEY, INT, NOT NULL  
 Идентификатор города, FOREIGN KEY, INT, NOT NULL  
 Идентификатор адреса, FOREIGN KEY, INT, NOT NULL  
 
-9) Таблица  Проекты
+#### 9) Таблица  Проекты
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 Наименование, VARCHAR(200), NOT NULL  
 
-10) Таблица Сотрудник/Тип подразделения/Структурное подразделение
+#### 10) Таблица Сотрудник/Тип подразделения/Структурное подразделение
 
 Идентификатор сотрудника, FOREIGN KEY, INT, NOT NULL  
 Идентификатор типа подразделения, FOREIGN KEY, INT, NOT NULL  
