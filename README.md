@@ -39,7 +39,7 @@
 #### 4) Таблица Тип подразделения  
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
-Наименование varchar(50), not null  
+Наименование, varchar(50), not null  
 
 #### 5) Таблица Область  
 
