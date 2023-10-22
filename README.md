@@ -18,6 +18,25 @@
 
 ### Ответ
 
+1) Таблица Сотрудники
+
+Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT
+ФИО, VARCHAR(100), NOT NULL
+Адрес, VARCHAR(100), NOT NULL
+Идентификатор структурного подразделения, FOREIGN KEY, INT, NOT NULL
+
+2) Таблица Структурные подразделения 
+
+Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT
+Наименование подразделения, VARCHAR(100), NOT NULL 
+
+3) Таблица Должности 
+
+Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT
+Название, VARCHAR(100), NOT NULL
+Оклад, DECIMAL(10,2), NOT NULL 
+
+4)
 
   
 ---
