@@ -18,7 +18,7 @@
 
 ### Ответ
 
-1) Таблица Сотрудники  
+#### 1) Таблица Сотрудники  
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 ФИО, VARCHAR(100), NOT NULL  
