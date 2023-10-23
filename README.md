@@ -72,11 +72,4 @@
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 Наименование, VARCHAR(200), NOT NULL  
 
-#### 10) Таблица Сотрудник/Тип подразделения/Структурное подразделение
-
-Идентификатор сотрудника, FOREIGN KEY, INT, NOT NULL  
-Идентификатор типа подразделения, FOREIGN KEY, INT, NOT NULL  
-Идентификатор структурного подразделения, FOREIGN KEY, INT, NOT NULL
-дата найма, DATE, NOT NULL  
-
 ---
