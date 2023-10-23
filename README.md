@@ -18,17 +18,22 @@
 
 ### Ответ
 
-#### 1) Таблица Сотрудники  
+#### 1) Таблица Сотрудники  (исправлено)  
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
-ФИО, VARCHAR(100), NOT NULL  
+Фамилия, VARCHAR(30), NOT NULL  
+Имя, VARCHAR(30), NOT NULL  
+Отчество, VARCHAR(30), NOT NULL  
 Адрес, VARCHAR(150), NOT NULL  
+Идентификатор должности, FOREIGN KEY, INT, NOT NULL
+Идентификатор проекта, FOREIGN KEY, INT, NOT NULL
 Идентификатор структурного подразделения, FOREIGN KEY, INT, NOT NULL  
 
-#### 2) Таблица Структурные подразделения   
+#### 2) Таблица Структурные подразделения   (исправлено)  
 
 Идентификатор, PRIMARY KEY, INT, NOT NULL, AUTO_INCREMENT  
 Наименование подразделения, VARCHAR(60), NOT NULL   
+Идентификатор Тип подразделения, FOREIGN KEY, INT, NOT NULL  
 
 #### 3) Таблица Должности   
 
